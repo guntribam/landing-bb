@@ -829,6 +829,7 @@ footer a:hover { color: var(--accent); }
     fbq('init', '1567510941262755');
     fbq('track', 'PageView');
 
+    
     const io = new IntersectionObserver((entries) => {
     entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('in'); });
     }, { threshold: 0.12 });
