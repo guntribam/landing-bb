@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e ':*)",
+      "Bash(node -)",
+      "Bash(node gen.js)",
+      "Bash(rm gen.js)"
+    ]
+  }
+}
