@@ -10,7 +10,12 @@
       "Bash(curl -sL https://devestavel.com.br/ -A \"Mozilla/5.0\" -o /tmp/devestavel.html)",
       "Read(//tmp/**)",
       "Bash(python *)",
-      "Bash(curl *)"
+      "Bash(curl *)",
+      "Bash(git checkout *)",
+      "Bash(git merge *)",
+      "Bash(git push *)",
+      "Bash(git stash *)",
+      "Bash(PYTHONIOENCODING=utf-8 python *)"
     ]
   },
   "enabledPlugins": {
