@@ -4,7 +4,17 @@
       "Bash(node -e ':*)",
       "Bash(node -)",
       "Bash(node gen.js)",
-      "Bash(rm gen.js)"
+      "Bash(rm gen.js)",
+      "Bash(npx skills *)",
+      "WebFetch(domain:devestavel.com.br)",
+      "Bash(curl -sL https://devestavel.com.br/ -A \"Mozilla/5.0\" -o /tmp/devestavel.html)",
+      "Read(//tmp/**)",
+      "Bash(python *)",
+      "Bash(curl *)"
     ]
+  },
+  "enabledPlugins": {
+    "document-skills@anthropic-agent-skills": true,
+    "example-skills@anthropic-agent-skills": true
   }
 }
